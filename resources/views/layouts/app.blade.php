@@ -1,20 +1,20 @@
 <!-- resources/views/layouts/app.blade.php -->
 
-<html>
+<!DOCTYPE html>
+<html lang="en">
 
 <head>
-    <title>App Name - @yield('title')</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>home</title>
 </head>
 
 <body>
-    @section('sidebar')
-        This is the master sidebar.
-    @show
-
-    <div class="container">
-        @yield('content')
-    </div>
-    123456789
+    <?php
+    echo '<h1>hello world!(Home)</h1>';
+    
+    ?>
 </body>
 
 </html>
